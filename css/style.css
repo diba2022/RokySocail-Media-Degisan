@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.green{
+    width: 600px;
+    height: 300px;
+    background-color: green ;
+    position: relative;
+
+}
+.red{
+    width: 180px;
+    height: 180px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 20%;
+    left: 35%; 
+    z-index: 1 ;
+}
+.green .fb{
+    width: 180px;
+    position: fixed;
+    top: 60%;
+    right: -125px;
+    transition: 1s;
+}    
+
+.green .fb:hover{
+    right:-2px;
+    cursor: pointer;
+
+}
+.green .linkedin{
+    width: 180px;
+    position: fixed;
+    top: 50%;
+    right: -125px;
+    transition: 1s;
+}
+.green .linkedin:hover{
+    right:-2px;
+    cursor: pointer;
+}
+.green .Twitter{
+    width: 180px;
+    position: fixed;
+    top: 40%;
+    right: -125px;
+    transition: 1s;
+}
+.green .Twitter:hover{
+    right:-2px;
+    cursor: pointer;
+}
+.green .Whatsapp{
+    width: 180px;
+    position: fixed;
+    top: 30%;
+    right: -125px;
+    transition: 1s;
+}
+.green .Whatsapp:hover{
+    right:-2px;
+    cursor: pointer;
+}
+.green .Skype{
+    width: 180px;
+    position: fixed;
+    top: 20%;
+    right: -125px;
+    transition: 1s;
+}
+.green .Skype:hover{
+    right:-2px;
+    cursor: pointer;
+}
+
+  
